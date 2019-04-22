@@ -1,0 +1,65 @@
+
+
+<br>
+<div style="text-align:center">
+  <h1>Bienvenido al modelamiento de empaques</h1>
+</div>
+<br>
+<br>
+
+<div class="card"  style="width: 60rem; margin-left: 15%;">
+  <div class="card-body">
+<form>
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="inputEmail4">Email</label>
+      <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+    </div>
+    <div class="form-group col-md-6">
+      <label for="inputPassword4">Organizacion</label>
+      <input type="password" class="form-control" id="inputPassword4" placeholder="Organizacion">
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="inputAddress">Direccion</label>
+    <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+  </div>
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="inputCity">Ciudad</label>
+      <input type="text" class="form-control" id="inputCity">
+    </div>
+    <div class="form-group col-md-4">
+      <label for="inputState">pais</label>
+      <select id="inputState" class="form-control">
+        <option selected>Seleccione...</option>
+        <option>...</option>
+      </select>
+    </div>
+    <div class="form-group col-md-2">
+      <label for="inputZip">Codigo postal</label>
+      <input type="text" class="form-control" id="inputZip">
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" id="gridCheck">
+      <label class="form-check-label" for="gridCheck">
+        Chek
+      </label>
+    </div>
+  </div>
+  <div>
+      <a href="../app/Documento" download="InventDE.xlsx" class="btn btn-default">Formato</a>
+  </div>
+  <div>
+    <input type="file" name="file">
+  </div>
+  <br>
+    <button type="submit" class="btn btn-primary">Enviar</button>
+</form>
+</div>
+</div>
+
+
+<router-outlet></router-outlet>
